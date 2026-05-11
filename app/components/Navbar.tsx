@@ -8,6 +8,7 @@ export default function Navbar() {
             <ul className={styles.list}>
                 <li><Link href="/">Inicio</Link></li>
                 <li><Link href="/about">Acerca de</Link></li>
+                <li><Link href="/favorite">Favoritos</Link></li>
             </ul>
         </nav>
     );
